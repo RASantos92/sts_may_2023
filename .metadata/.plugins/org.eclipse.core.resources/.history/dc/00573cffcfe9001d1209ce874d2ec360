@@ -1,0 +1,10 @@
+package com.robert.oopstsdemo;
+
+public class FrontEndDev extends Developer {
+
+	public FrontEndDev() {
+		super("Anonymous frontend dev", 100000);
+		
+	}
+
+}
