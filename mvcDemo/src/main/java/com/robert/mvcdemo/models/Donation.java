@@ -28,6 +28,7 @@ public class Donation {
     @NotNull
     private String name;
     
+    
     @Size(min=2, max=255)
     @NotNull(message="donor name must not be null")
     private String donor;
