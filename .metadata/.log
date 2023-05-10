@@ -10803,3 +10803,57 @@ java.io.FileNotFoundException: /org/eclipse/persistence/jaxb/eclipselink_oxm_2_5
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-10 11:24:04.152
 !MESSAGE executing callback sts4.classpath.rtEkHVsd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-10 15:10:17.388
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.rtEkHVsd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-10 15:10:17.391
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.rtEkHVsd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-10 15:10:17.392
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-10 15:10:17.393
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.rtEkHVsd => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-10 15:14:27.375
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-10 15:14:27.376
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@661d7ea4[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=569)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-10 15:14:27.377
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-10 15:14:30.080
+!MESSAGE Boot LS startup time from start to initialized: 2702ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-10 15:14:30.176
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.wIZoGxmEisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-10 15:14:30.176
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-10 15:14:30.177
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-10 15:14:30.178
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-10 15:14:30.178
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-10 15:14:30.179
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.wIZoGxmE => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-10 15:14:30.188
+!MESSAGE classpath=108 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-10 15:14:30.195
+!MESSAGE buffering callback sts4.classpath.wIZoGxmE mvcDemo false 108
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-10 15:14:30.196
+!MESSAGE executing callback sts4.classpath.wIZoGxmE 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-10 15:14:30.605
+!MESSAGE executing callback sts4.classpath.wIZoGxmE SUCCESS [done]

@@ -16,17 +16,17 @@
     <div class="form-group">
         <label>Donation Name</label>
         <form:input type="text" path="name" class="form-control" />
-        <form:errors path="name"/>
+        <form:errors class="text-danger" path="name"/>
     </div>
     <div class="form-group">
         <label>Quantity</label>
         <form:input type="number" path="quantity" class="form-control" />
-        <form:errors path="quantity"/>
+        <form:errors class="text-danger" path="quantity"/>
     </div>
     <div class="form-group">
         <label>Donor</label>
         <form:input type="text" path="donor" class="form-control" />
-        <form:errors path="donor"/>
+        <form:errors class="text-danger" path="donor"/>
     </div>
     <input type="submit" value="Add Donation" class="btn btn-primary" />
 </form:form>

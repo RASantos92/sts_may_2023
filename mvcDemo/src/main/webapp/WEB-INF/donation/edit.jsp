@@ -14,8 +14,8 @@
 </head>
 <body>
 <h1>Edit Donation</h1>
-<form:form action="/donations/process/edit/${donation.id}" method="post" modelAttribute="donation">
-	<input type="hidden" name="_method" value="put"/>
+<form:form action="/donations/process/edit/${donation.id}" method="PUT" modelAttribute="donation">
+
     <div class="form-group">
         <label>Donation Name</label>
         <form:input type="text" path="name" class="form-control" />

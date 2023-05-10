@@ -11,4 +11,6 @@ import com.robert.mvcdemo.models.Donation;
 public interface DonationRepository extends CrudRepository<Donation,Long>{
 	// SELECT * FROM Donations
 	List<Donation> findAll();
+	
+	List<Donation> findByNameContaining(String name);
 }

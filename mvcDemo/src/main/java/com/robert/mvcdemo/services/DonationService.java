@@ -42,6 +42,10 @@ public class DonationService {
 		
 	}
 	
+	public List<Donation> searchDonationName(String name){
+		return donationRepo.findByNameContaining(name);
+	}
+	
 	
 	
 	
