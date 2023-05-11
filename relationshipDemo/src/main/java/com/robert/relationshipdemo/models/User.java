@@ -102,6 +102,22 @@ public class User {
 	public Date getUpdatedAt() {
 		return updatedAt;
 	}
+	
+	
+
+
+
+
+	public List<Donation> getDonations() {
+		return donations;
+	}
+
+
+
+
+	public void setDonations(List<Donation> donations) {
+		this.donations = donations;
+	}
 
 
 
