@@ -44,16 +44,17 @@
 			<div class="col">
 			<h1>login</h1>
 			<form:form action="/users/process/login" method="post" modelAttribute="loginUser">
+				    <form:errors path="email" class="text-danger" />
 				    <div class="form-group">
 				        <label>Email</label>
 				        <form:input path="email" class="form-control" />
-				        <form:errors path="email" class="text-danger" />
 				    </div>
 				    <div class="form-group">
 				        <label>Password</label>
 				        <form:input path="password" class="form-control" />
 				        <form:errors path="password" class="text-danger" />
 				    </div>
+
 				    <input type="submit" value="Login" class="btn btn-primary" />
 				</form:form>
 			</div>

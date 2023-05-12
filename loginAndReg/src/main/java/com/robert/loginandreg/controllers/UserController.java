@@ -61,8 +61,13 @@ public class UserController {
 			return "user/loginReg.jsp";
 		}
 		session.setAttribute("user_id", loggingUser.getId());
-		return "redirect:/";
-		
+		return "redirect:/";	
+	}
+	
+	@GetMapping("/logout")
+	public String logoutUser(HttpSession session) {
+		session.invalidate();
+		return "redirect:/users/login/register";
 		
 	}
 
